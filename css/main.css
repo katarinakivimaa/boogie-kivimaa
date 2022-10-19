@@ -72,3 +72,21 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* Global styles */
+
+/* END Global styles */
+
+
+/* Header styles */
+header, nav ul {
+  display: flex;
+}
+header li {
+  margin-right: 1em;
+  list-style: none; /*remove bullet list style*/
+}
+header a {
+  text-decoration: none; /*remove link underline*/
+}
+/*END Header styles */
