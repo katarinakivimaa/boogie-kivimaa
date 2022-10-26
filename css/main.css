@@ -99,15 +99,22 @@ header a {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 .half1 {
-  background-color: green;
+  background-color: lightgreen;
   width: auto;
   height: 400px;
 }
 .half2 {
-  background-color: purple;
+  background-color: lightblue;
   width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr) 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.half2 div {
+  border: 2px solid orange;
+  padding: 2em;
 }
