@@ -103,6 +103,7 @@ header a {
 .half1 {
   background-color: lightgreen;
   width: auto;
+
   height: 400px;
 }
 .half2 {
@@ -114,7 +115,22 @@ header a {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-.half2 div {
-  border: 2px solid orange;
-  padding: 2em;
+
+.half2 .buy img {
+  height: 150px;
+  width: auto;
+}
+.half2 ul {
+  display: flex;
+  flex-direction: row;
+}
+.half2 ul a {
+  margin-left: 5px;
+  justify-content: space-between;
+}
+.box {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
