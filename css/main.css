@@ -128,9 +128,28 @@ header a {
   margin-left: 5px;
   justify-content: space-between;
 }
+.pink {
+  color: #FD8ED7;
+}
+.green {
+  color: #26BC84;
+}
+.btn {
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  max-width: 100px;
+}
+.btn-pink {
+  background-color: #FD8ED7;
+}
+.btn-green {
+  background-color: #26BC84;
+}
 .box {
   padding: 4em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #EFE9E1
 }
